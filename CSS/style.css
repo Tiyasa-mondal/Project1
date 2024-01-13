@@ -1,0 +1,134 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+body {
+  position: relative;
+  /* font-weight: bold; */
+  /* opacity: 25%; */
+  /* font-weight: bolder; */
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: url("../Images/istockphoto-1418476287-1024x1024.jpg");
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.25;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+a:hover {
+  background-color: #000;
+  color: white;
+  border-radius: 15px;
+}
+.col-lg-5 {
+  font-size: 3px;
+}
+b .row bg-danger {
+  color: white;
+}
+/* section {
+  position: relative;
+}
+section::before {
+  content: "";
+  background: url("https://media.istockphoto.com/id/1136998992/photo/the-monthly-management-meeting-has-begun.webp?s=1024x1024&w=is&k=20&c=wPWQJVNH7uPdZzBVRcNoKkJMvClTblkGK5P85Lch1u8=");
+  background-size: cover;
+  position: absolute;
+
+  opacity: 0.2;
+} */
+.container-fluid .img {
+  background-image: url("https://media.istockphoto.com/id/1428385496/photo/businessman-pointing-financial-icons-by-his-hand-finance-insurance-and-investment-screen.webp?s=1024x1024&w=is&k=20&c=cHQceB24Yr5yLIIb1zq0_aQErrJ-qTOQIgIzzNOr9Cg=");
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.br img {
+  border-radius: 80%;
+}
+sub section img {
+  border-radius: 40%;
+}
+.btn:hover {
+  background: yellow;
+  color: blue;
+}
