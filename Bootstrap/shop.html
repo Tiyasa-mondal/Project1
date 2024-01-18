@@ -9,33 +9,35 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
-    <title>Document</title>
+    <title>About</title>
   </head>
   <body>
-    <header>
-      <div class="container-fluid">
-        <div class="row mt-3 p-0">
-          <div class="col-5 fw-bold"><h3>AVANTAGE</h3></div>
-          <div class="col-lg-6">
-            <a href="index.html">Home</a><a href="about.html">About Us</a
-            ><a href="service.html">Services</a><a href="">Protfolio</a
-            ><a href="about.html">Blog</a><a href="shop.html">Shop</a>
-            <img src="Images/magnifying-glass-solid.svg" alt="Search" />
-            <img src="./Images/bag-shopping-solid.svg" alt="Bags" />
-          </div>
-          <div class="col">
-            <b class="row bg-danger">
-              <img
-                src="./Images/phone-solid.svg"
-                alt="Phone"
-                class="col-4"
-              />9126512578
-            </b>
-          </div>
+    <div class="container-fluid">
+      <div class="row mt-3 p-0">
+        <div class="col-5 text-danger fw-bold"><h3>AVANTAGE</h3></div>
+        <div class="col-lg-6">
+          <a href="index.html">Home</a><a href="about.html">About Us</a
+          ><a href="service.html">Services</a><a href="">Protfolio</a
+          ><a href="about.html">Blog</a><a href="shop.html">Shop</a>
+          <img src="Images/magnifying-glass-solid.svg" alt="Search" />
+          <img src="./Images/bag-shopping-solid.svg" alt="Bags" />
+        </div>
+        <div class="col">
+          <b class="row bg-danger">
+            <img
+              src="./Images/phone-solid.svg"
+              alt="Phone"
+              class="col-4"
+            />9126512578
+          </b>
         </div>
       </div>
-    </header>
+    </div>
       <!-- Code of slider start here -->
       <div
       id="carouselExampleDark"
@@ -119,5 +121,64 @@
       </button>
     </div>
     <!-- Code of slider end here -->
+    <div class="about-section">
+      <h1>SHOP</h1>
+      <p>Some text about who we are and what we do.</p>
+      <p>
+        Resize the browser window to see that this page is responsive by the
+        way.
+      </p>
+    </div>
+
+    <h2 style="text-align: center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="/w3images/team1.jpg" alt="Jane" style="width: 100%" />
+          <div class="container">
+            <h2>Jane Doe</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>jane@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="/w3images/team2.jpg" alt="Mike" style="width: 100%" />
+          <div class="container">
+            <h2>Mike Ross</h2>
+            <p class="title">Art Director</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>mike@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="/w3images/team3.jpg" alt="John" style="width: 100%" />
+          <div class="container">
+            <h2>John Doe</h2>
+            <p class="title">Designer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>john@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <footer class="footer mt-auto py-3 bg-dark text-white">
+    <div class="container text-center">
+      <span
+        >AVANTAGE &copy; Pijush
+        <i class="fa-brands fa-facebook" style="color: #0091ff"></i
+        ><a href="http://facebook.com" class="text-white" target="_blank">Facebook</a></span
+      >
+    </div>
+  </footer>
 </html>
